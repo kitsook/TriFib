@@ -49,6 +49,7 @@ But since the Fibonacci sequence grows so quickly, it is a waste of CPU time to 
             .parallel()
             .filter(f -> TriangularNum.isTriangular(f))
             .distinct()
+            .sorted()
             .collect(Collectors.toList());
 ```
 Testing the first 70 Fibonacci numbers, the time diff between the two approaches is huge (24ms vs 4s).
