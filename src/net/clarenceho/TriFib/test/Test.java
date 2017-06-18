@@ -61,7 +61,7 @@ public class Test {
         while (fib.hasNext()) {
             BigInteger f = fib.next();
             while (t.compareTo(f) <= 0) {
-                if (t.compareTo(f) == 0) {
+                if (t.equals(f)) {
                     result.add(t);
                 }
                 t = tri.next();
