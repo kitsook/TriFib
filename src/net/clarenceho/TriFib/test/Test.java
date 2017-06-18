@@ -80,6 +80,7 @@ public class Test {
             .parallel()
             .filter(f -> TriangularNum.isTriangular(f))
             .distinct()
+            .sorted()
             .collect(Collectors.toList());
         
         assertThat(result.toArray(), is(EXPECTED));
