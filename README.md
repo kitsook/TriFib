@@ -53,5 +53,5 @@ But since the Fibonacci sequence grows so quickly, it is a waste of CPU time to 
 ```
 Testing the first 70 Fibonacci numbers, the time diff between the two approaches is huge (24ms vs 4s).
 
-And using the fast approach, with an i5 4210 machine, testing the first 50,000 Fibonacci numbers will take 93s.
+And with the fast approach, on an i5 4210 machine, testing the first 50,000 Fibonacci numbers will take 93s.
 
